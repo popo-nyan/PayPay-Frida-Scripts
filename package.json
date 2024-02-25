@@ -1,14 +1,11 @@
 {
   "name": "paypay-frida-scripts",
   "version": "1.0.0",
-  "description": "",
+  "description": "PayPayアプリの解析を楽に行うた為のFrida Script",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/frida-gum": "^18.6.0"
-  }
+  "license": "ISC"
 }
