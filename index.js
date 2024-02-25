@@ -23,11 +23,12 @@ Java.perform(function () {
             console.log(`[+] Offline Payment Hook secretKey ::${secretKey} i2 ::${j} str ::${str} str2 ::${str2} j2 ::${j2} str3 ::${str3} algorithm ::${algorithm}`);
             return result;
         };
+
         const networkDClass = Java.use('com.paytm.pai.network.d');
 
         networkDClass.c.overload('java.lang.String', 'java.lang.String').implementation = function (arg1, arg2) {
             const result = this.c(arg1, arg2);
-            console.log(`[+] HMAC Hook Key: ${arg1} Message: ${arg2}`);
+            console.log(`[+] HMAC Hook Key ::${arg1} Message ::${arg2}`);
             return result;
         };
     }
