@@ -2,7 +2,7 @@
 
 # これは何？
 
-PayPayアプリの解析を楽に行うた為のFrida Script
+PayPayアプリの解析を楽に行う為のFrida Script
 
 # 機能
 
