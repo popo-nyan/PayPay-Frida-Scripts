@@ -7,7 +7,7 @@ PayPayアプリの解析を楽に行うた為のFrida Script
 # 機能
 
 - エミュレーター検知回避
-- v1/config等に必要な*Hash*のhook
+- v1/config等に必要な**Hash**のhook
 - オフライン支払いの関数hook
 
 # 使い方
