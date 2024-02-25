@@ -13,7 +13,7 @@ PayPayアプリの解析を楽に行うた為のFrida Script
 # 使い方
 
 ```bash
-frida -U -l hook.js -f jp.ne.paypay.android.app
+frida -U -l index.js -f jp.ne.paypay.android.app
 ```
 
 # 注意
