@@ -1,3 +1,7 @@
+function bytesToHex(byteArray) {
+    return Array.from(byteArray, byte => ('0' + (byte & 0xFF).toString(16)).slice(-2)).join('')
+}
+
 Java.perform(function () {
         const deviceDClass = Java.use('jp.ne.paypay.android.device.d');
 
@@ -28,7 +32,7 @@ Java.perform(function () {
 
         networkDClass.c.overload('java.lang.String', 'java.lang.String').implementation = function (arg1, arg2) {
             const result = this.c(arg1, arg2);
-            console.log(`[+] HMAC Hook Key ::${arg1} Message ::${arg2}`);
+            console.log(`[+] HMAC Hook Key ::${arg1} Message ::${arg2} Hashed ::${bytesToHex(result)}`);
             return result;
         };
     }
