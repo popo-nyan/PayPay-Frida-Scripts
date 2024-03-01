@@ -1,7 +1,5 @@
 # PayPay Frida Scripts
 
-# これは何？
-
 PayPayアプリの解析を楽に行う為のFrida Script
 
 # 機能
