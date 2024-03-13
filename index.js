@@ -3,7 +3,7 @@ function bytesToHex(byteArray) {
 }
 
 Java.perform(function () {
-        const deviceDClass = Java.use('jp.ne.paypay.android.device.d');
+        const deviceDClass = Java.use('jp.ne.paypay.android.device.e');
 
         deviceDClass.a.overload().implementation = function () {
             console.log('[+] Emulator Bypass');
