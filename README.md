@@ -20,5 +20,4 @@ PayPay 4.35.1でのみ動作確認済み
 
 # 連絡先
 
-- Discord: qoo.nyan
 - Matrix: @qoo.nyan:usesarchbtw.lol
