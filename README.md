@@ -13,6 +13,7 @@ PayPayアプリの解析を楽に行う為のFrida Script
 ```bash
 frida -U -l index.js -f jp.ne.paypay.android.app
 ```
+![](2024-03-27-15-39-02.png)
 
 # 注意
 
