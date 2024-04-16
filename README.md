@@ -4,6 +4,7 @@ PayPayアプリの解析を楽に行う為のFrida Script
 
 # 機能
 
+- SSL Pining Bypass
 - エミュレーター検知回避
 - v1/config等に必要な**Hash**のhook
 - オフライン支払いの関数hook
@@ -13,11 +14,11 @@ PayPayアプリの解析を楽に行う為のFrida Script
 ```bash
 frida -U -l index.js -f jp.ne.paypay.android.app
 ```
-![](2024-03-27-15-39-02.png)
+![](2024-04-16-14-32-20.png)
 
 # 注意
 
-PayPay 4.35.1~4.38.2でのみ動作確認済み
+PayPay 4.40.1でのみ動作確認済み
 
 # 連絡先
 
