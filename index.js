@@ -5,20 +5,14 @@ function bytesToHex(byteArray) {
 Java.perform(function () {
     // TrustManagerImpl SSL Pinning Bypass
     const TrustManagerImplClass = Java.use('com.android.org.conscrypt.TrustManagerImpl');
-    try {
-        let arrayListClass = Java.use("java.util.ArrayList");
-        TrustManagerImplClass.checkTrustedRecursive.implementation = function (certs, bArr, bArr2, str, z, arrayList, arrayList2, set) {
-            console.log('[+] SSL Pining Byapss');
-            return arrayListClass.$new();
-        };
-    } catch (e) {
+    let arrayListClass = Java.use("java.util.ArrayList");
+    TrustManagerImplClass.checkTrustedRecursive.implementation = function (certs, bArr, bArr2, str, z, arrayList, arrayList2, set) {
+        console.log('[+] SSL Pining Byapss');
+        return arrayListClass.$new();
     }
-    try {
-        TrustManagerImplClass.verifyChain.implementation = function (list, list2, str, z, bArr, bArr2) {
-            console.log('[+] SSL Pining Byapss');
-            return untrustedChain;
-        };
-    } catch (e) {
+    TrustManagerImplClass.verifyChain.implementation = function (list, list2, str, z, bArr, bArr2) {
+        console.log('[+] SSL Pining Byapss');
+        return untrustedChain;
     }
 
     // Emulator Bypass
@@ -48,7 +42,7 @@ Java.perform(function () {
         return result;
     };
 
-    // **hash** hook
+    // hash hook
     const networkDClass = Java.use('com.paytm.pai.network.d');
     networkDClass.c.implementation = function (arg1, arg2) {
         const result = this.c(arg1, arg2);
