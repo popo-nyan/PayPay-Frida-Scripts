@@ -1,6 +1,6 @@
 function bytesToHex(byteArray) {
     return Array.from(byteArray, byte => ('0' + (byte & 0xFF).toString(16)).slice(-2)).join('')
-}
+};
 
 Java.perform(function () {
     // TrustManagerImpl SSL Pinning Bypass
@@ -9,11 +9,11 @@ Java.perform(function () {
     TrustManagerImplClass.checkTrustedRecursive.implementation = function (certs, bArr, bArr2, str, z, arrayList, arrayList2, set) {
         console.log('[+] SSL Pining Byapss');
         return arrayListClass.$new();
-    }
+    };
     TrustManagerImplClass.verifyChain.implementation = function (list, list2, str, z, bArr, bArr2) {
         console.log('[+] SSL Pining Byapss');
         return untrustedChain;
-    }
+    };
 
     // Emulator Bypass
     const deviceDClass = Java.use('jp.ne.paypay.android.device.d');
