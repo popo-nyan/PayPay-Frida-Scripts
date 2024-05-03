@@ -16,7 +16,7 @@ Java.perform(function () {
     };
 
     // Emulator Bypass
-    const deviceDClass = Java.use('jp.ne.paypay.android.device.d');
+    const deviceDClass = Java.use('jp.ne.paypay.android.device.c');
     deviceDClass.a.implementation = function () {
         console.log('[+] Emulator Bypass');
         return false;

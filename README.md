@@ -18,7 +18,7 @@ frida -U -l index.js -f jp.ne.paypay.android.app
 
 # 注意
 
-PayPay 4.40.1でのみ動作確認済み
+PayPay 4.42.1でのみ動作確認済み
 
 # 連絡先
 
