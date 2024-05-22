@@ -16,7 +16,7 @@ Java.perform(function () {
     };
 
     // Emulator Bypass
-    const deviceDClass = Java.use('Sd.c');
+    const deviceDClass = Java.use('Td.c');
     deviceDClass.a.implementation = function () {
         console.log('[+] Emulator Bypass');
         return false;
@@ -31,7 +31,7 @@ Java.perform(function () {
     };
 
     // Offline payment hook
-    const bClass = Java.use('vq.b');
+    const bClass = Java.use('Jq.b');
     bClass.a.implementation = function (secretKey, j, str, str2, j2, str3, algorithm) {
         const result = this.a(secretKey, j, str, str2, j2, str3, algorithm);
         console.log(`[+] Offline Payment Hook \nsecretKey ::${secretKey}\ni2 ::${j}\bstr       ::${str}
@@ -43,7 +43,7 @@ Java.perform(function () {
     };
 
     // hash hook
-    const dClass = Java.use('m7.d');
+    const dClass = Java.use('p7.d');
     dClass.c.overload('java.lang.String', 'java.lang.String').implementation = function (arg1, arg2) {
         const result = this.c(arg1, arg2);
         console.log(`[+] HMAC Hook\nKey ::${arg1}\nMessage ::${arg2}\nHashed ::${bytesToHex(result)}`);
