@@ -22,5 +22,5 @@ PayPay 4.45.0でのみ動作確認済み
 
 # 連絡先
 
-- Matrix: @qoo.nyan:usesarchbtw.lol
+- Matrix: [@qoo.nyan:usesarchbtw.lol](https://matrix.to/#/@qoo.nyan:usesarchbtw.lol)
 - Telegram: [@kuma_neko](https://t.me/kuma_neko)
