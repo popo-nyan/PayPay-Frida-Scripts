@@ -16,7 +16,7 @@ Java.perform(function () {
     };
 
     // Emulator Bypass
-    const deviceDClass = Java.use('Td.c');
+    const deviceDClass = Java.use('Rd.c');
     deviceDClass.a.implementation = function () {
         console.log('[+] Emulator Bypass');
         return false;
