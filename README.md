@@ -18,9 +18,8 @@ frida -U -l index.js -f jp.ne.paypay.android.app
 
 # 注意
 
-PayPay 4.47.0でのみ動作確認済み
+PayPay 4.49.1でのみ動作確認済み
 
 # 連絡先
 
 - Matrix: [@qoo.nyan:usesarchbtw.lol](https://matrix.to/#/@qoo.nyan:usesarchbtw.lol)
-- Telegram: [@kuma_neko](https://t.me/kuma_neko)
