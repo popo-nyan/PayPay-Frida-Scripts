@@ -18,8 +18,9 @@ frida -U -l index.js -f jp.ne.paypay.android.app
 
 # 注意
 
-PayPay 4.53.0でのみ動作確認済み
+PayPay 4.62.2でのみ動作確認済み
 
 # 連絡先
 
-- Matrix: [@kounomiya-cat:matrix.org](https://matrix.to/#/@kounomiya-cat:matrix.org)
+- Email [kounomiya@tuta.io](mailto:kounomiya@tuta.io)
+- Matrix: [@kounomiya:hackliberty.org](https://matrix.to/#/@kounomiya:hackliberty.org)
