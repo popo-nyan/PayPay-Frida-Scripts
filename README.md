@@ -23,4 +23,3 @@ PayPay 4.62.2でのみ動作確認済み
 # 連絡先
 
 - Email [kounomiya@tuta.io](mailto:kounomiya@tuta.io)
-- Matrix: [@kounomiya:hackliberty.org](https://matrix.to/#/@kounomiya:hackliberty.org)
