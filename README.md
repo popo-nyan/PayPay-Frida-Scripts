@@ -22,4 +22,5 @@ PayPay 4.62.2でのみ動作確認済み
 
 # 連絡先
 
+- Discord: popo.nyan
 - Email [kounomiya@tuta.io](mailto:kounomiya@tuta.io)
